@@ -6,7 +6,6 @@
 
 for filena in *; do
     if [[ "$filena" != .* ]]; then
-        $name=$(echo "$filena" | cut -d "-" -f2-)
-        echo "$name"
+        echo "$filena" | cut -d '-' -f2-
     fi
 done
