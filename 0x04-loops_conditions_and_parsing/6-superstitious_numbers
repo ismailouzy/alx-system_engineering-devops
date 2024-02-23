@@ -9,13 +9,16 @@ while [ $coun -le 20 ]
 do
     case $coun in
         4)
-            echo "$coun bad luck from China"
+            echo $coun
+	    echo "bad luck from China"
             ;;
         9)
-            echo "$coun bad luck from Japan"
+            echo $coun
+	    echo "bad luck from Japan"
             ;;
         17)
-            echo "$coun bad luck from Italy"
+            echo $coun
+	    echo "bad luck from Italy"
             ;;
         *)
             echo $coun
