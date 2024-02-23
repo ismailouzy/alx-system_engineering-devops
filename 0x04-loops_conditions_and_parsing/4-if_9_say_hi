@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Display "Best School" 10 times
+
+coun=0
+while [ $coun -lt 10 ]
+do
+    message="Best School"
+    additional_message="Hi"
+
+    if [ $coun -eq 8 ]
+    then
+        echo "$message"
+        echo "$additional_message"
+    else
+        echo "$message"
+    fi
+
+    ((coun++))
+done
