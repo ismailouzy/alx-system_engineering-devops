@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # CHANGE your home ip
 
 cp /etc/hosts ~/hosts.new
